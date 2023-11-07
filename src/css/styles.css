@@ -1,0 +1,79 @@
+/* Reset de estilos para elementos HTML padrão */
+html, body, h1, h2, h3, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Defina a fonte padrão e tamanho da fonte em toda a página */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+}
+
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left-image {
+    display: inline;
+    width: 100px; /* Defina o tamanho desejado para a imagem à esquerda */
+    margin-right: 10px; /* Adicione uma margem à direita para criar espaço entre as imagens */
+}
+
+.right-image {
+    display: inline;
+    width: 100px; /* Defina o tamanho desejado para a imagem à direita */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilização para os elementos de entrada */
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para a mensagem de resultado */
+#resultado {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Mídia query para telas menores (dispositivos móveis) */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
